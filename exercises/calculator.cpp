@@ -10,3 +10,14 @@
   Multiplication: 8
   Division: 2
 */
+#include <iostream>
+using namespace std;
+int main(){
+    int x,y;
+    cin>>x;
+    cin>>y;
+    cout<<"SUM: "<<x+y<<endl;
+    cout<<"Difference: "<<x-y<<endl;
+    cout<<"Multiplication: "<<x*y<<endl;
+    cout<<"Division: "<<x/y<<endl;
+}
