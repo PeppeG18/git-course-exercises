@@ -12,7 +12,17 @@ using namespace std;
 int main()
 {
   // placeholder
-  int N[10] = [ 3, 4, 5, 1, 2, 3, 4, 9, 13, 0 ];
+  int N[10] = {3, 4, 5, 1, 2, 3, 4, 9, 13, 0};
+  bool flag=false;
+  int x;
+  cin>>x;
+  for(int i=0;i<10;i++)
+    if(x==N[i])
+        flag=true;
+  if(flag)
+    cout<<"The number "<<x<<" is present";
+  else
+    cout<<"The number "<<x<<" is not present";
 
   return 0;
 }
